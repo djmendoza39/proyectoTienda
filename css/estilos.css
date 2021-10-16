@@ -81,9 +81,6 @@ header{
     background-attachment: fixed;
     background-position: left;
     background-clip: border-box;
-   
-    
-    
 
 }
 
@@ -95,6 +92,22 @@ header{
 .mi-estilo-title{
     font-weight: 900;
 }
+
+/* productos */
+.mi-estilo-btn-productos{
+    background-color: #01A568 !important;
+    padding: .5rem;
+    color: rgb(87, 79, 68);
+    border:solid 2px gainsboro;
+}
+
+.mi-estilo-btn-productos:hover{
+
+    background-color: #f09b56 !important;
+    transition: all 1s ;
+   
+}
+
 
 
 /* estilos seccion info pagos */
@@ -110,6 +123,7 @@ header{
 
 .pago-tarjeta, .envio-gratis{
     border-right: solid 1px #B3D332;
+
 }
 
 
@@ -128,4 +142,13 @@ footer{
 .mi-border-footer{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+/* media querys */
+
+@media (min-width:992px)and(max-width: 1200px) {
+    header{
+        background-color: blue !important;
+    }
+    
 }
