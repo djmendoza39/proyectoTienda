@@ -1,0 +1,131 @@
+/* texto prinicipal sitio */
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+body{
+    font-family: 'Domine', serif;
+}
+
+/* formateo etiqueta li y a */
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #777779;
+    font-weight: 500;
+}
+a:hover{
+    text-decoration: none;
+    color: #B4D435;
+}
+
+/* ----------------------------------- */
+.contacto-whatsapp{
+    position: fixed;
+    bottom:90px;
+    right: 30px;
+    z-index: 1000;
+    
+}
+
+.mi-estilo-btn-whatsapp{
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(111, 216, 7);
+}
+/* estilos header */
+
+header{
+    -webkit-box-shadow: 0px 5px 6px -4px #000000; 
+    box-shadow: 0px 5px 6px -4px #000000;
+}
+.mi-estilo-iconos-header{
+    font-size: 22px;
+    padding: .6rem;
+}
+
+/* slide */
+.mi-estilo-img-slide{
+    filter: brightness(0.7);
+    height: 90vh;
+    background-attachment: fixed;
+}
+
+
+
+.mi-estilo-img-featurette{
+    width: 500px;
+    height: 500px;
+    
+}
+
+.mi-estilo-img-featurette-fondo-1{
+    background-image: url(../img/featurette1.png);
+    background-attachment: fixed;
+    background-position: left;
+    background-clip: border-box;
+    
+    
+
+}
+.mi-estilo-img-featurette-fondo-2{
+    background-image: url(../img/featurette2.jpg);
+    background-attachment: fixed;
+    background-position: left;
+    background-clip: border-box;
+    
+    
+
+}
+.mi-estilo-img-featurette-fondo-3{
+    background-image: url(../img/featurette3.jpg);
+    background-attachment: fixed;
+    background-position: left;
+    background-clip: border-box;
+   
+    
+    
+
+}
+
+/* estilos jumbo */
+.mi-estilo-jumbo-texto{
+    padding: 5rem;
+}
+
+.mi-estilo-title{
+    font-weight: 900;
+}
+
+
+/* estilos seccion info pagos */
+
+.mi-estilos-info-pagos{
+    background-color: #6D6C6E;
+    color: cornsilk;
+}
+.mi-estilo-pagos{
+    color: #B3D332;
+    font-size: 3rem;
+}
+
+.pago-tarjeta, .envio-gratis{
+    border-right: solid 1px #B3D332;
+}
+
+
+/* estilos footer */
+
+footer{
+    color: cornsilk;
+
+}
+.mi-estilo-icons-redes{
+    font-size: 22px;
+    color: cornsilk;
+    padding-right: .6rem;
+}
+
+.mi-border-footer{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
