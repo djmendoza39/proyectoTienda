@@ -1,0 +1,38 @@
+.mi-estilo-login{
+    height: 100vh;
+    
+}
+
+
+form{
+    width: 600px;
+    background-color: #E9ECEF;
+    margin: 0 auto;
+    padding: 2.5rem;
+    border-radius: 10px;
+}
+
+.mi-estilo-bg-main{
+    background-image: linear-gradient(135deg, #176352, #7BE8CE, #34E3BA, #356359, #28B090, #D74BE3, #E34057);
+    background-size: 400%;
+    animation: mi-efecto-bg-main 30s infinite;
+}
+
+.mi-estilo-btn-login:hover{
+    background-color:#098399e0;
+}
+
+@keyframes mi-efecto-bg-main{
+
+    10%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 50% 0%;
+    }
+
+
+}
